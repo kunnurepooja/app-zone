@@ -26,7 +26,7 @@ public class GroupController {
 
 	@Autowired
 	private GroupService createGroupService;
-
+ //,asmd,asmd,a
 	@SuppressWarnings("null")
 	@PostMapping("createGroup")
 	public ModelAndView createGroup(GroupDTO group, HttpServletRequest request) {
